@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.farna.voicetrigger.MainActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/doggo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:onClick="onButtonClick"
+        android:background="@drawable/doggo"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="90dp"/>
+
+</RelativeLayout>
